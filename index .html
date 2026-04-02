@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>6 Majors - Marathon Travel Specialists</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=DM+Sans:wght@400;500&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <nav>
+    <a href="index (4).html" class="nav-logo">runtoMajors Travel</a>
+    <ul class="nav-links">
+      <li><a href="index (4).html" class="active">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="destinations.html">Destinations</a></li>
+      <li><a href="packages.html">Packages</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <a href="contact.html" class="nav-cta">Book now</a>
+    <div class="nav-hamburger" aria-label="Open menu">
+      <span></span><span></span><span></span>
+    </div>
+  </nav>
+
+  <section class="hero" aria-label="Hero">
+    <div class="hero-bg"></div>
+    <div class="muro">
+      <img src="run.webp" alt="Runner mural" class="muro-image" />
+    </div>
+    <div class="hero-inner">
+      <div class="hero-deco-circle"></div>
+      <p class="hero-eyebrow">Abbott World Marathon Majors Travel</p>
+      <h1 class="hero-title">Run the world.<br /><em>Here starts your journey.</em></h1>
+      <p class="hero-sub">
+        Expert travel packages for runners and supporters attending all six Abbott World Marathon
+        Majors &mdash; Tokyo, Boston, London, Berlin, Chicago, New York.
+      </p>
+
+      <form class="hero-search" role="search" aria-label="Search travel packages">
+        <div class="search-field">
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+            <circle cx="7" cy="7" r="5" stroke="white" stroke-width="1.2" />
+            <line x1="11" y1="11" x2="14.5" y2="14.5" stroke="white" stroke-width="1.2" stroke-linecap="round" />
+          </svg>
+          <input type="text" placeholder="Where do you want to race?" aria-label="Destination" />
+        </div>
+        <select class="search-select" aria-label="Select a race">
+          <option value="">Any race</option>
+          <option value="tokyo">Tokyo &mdash; March</option>
+          <option value="boston">Boston &mdash; April</option>
+          <option value="london">London &mdash; April</option>
+          <option value="berlin">Berlin &mdash; September</option>
+          <option value="chicago">Chicago &mdash; October</option>
+          <option value="new-york">New York &mdash; November</option>
+        </select>
+        <button type="submit" class="search-btn">Search</button>
+      </form>
+
+      <div class="hero-stats">
+        <div class="hero-stat">
+          <div class="hero-stat-num">6</div>
+          <div class="hero-stat-label">World Majors</div>
+        </div>
+        <div class="hero-stat">
+          <div class="hero-stat-num">500k+</div>
+          <div class="hero-stat-label">Runners yearly</div>
+        </div>
+        <div class="hero-stat">
+          <div class="hero-stat-num">4</div>
+          <div class="hero-stat-label">Continents</div>
+        </div>
+        <div class="hero-stat">
+          <div class="hero-stat-num">6&#9733;</div>
+          <div class="hero-stat-label">Finisher medal</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-races" aria-hidden="true">
+      <div class="hero-race-badge"><span class="dot"></span>Tokyo<span class="month">March</span></div>
+      <div class="hero-race-badge"><span class="dot"></span>Boston<span class="month">April</span></div>
+      <div class="hero-race-badge"><span class="dot"></span>London<span class="month">April</span></div>
+      <div class="hero-race-badge"><span class="dot"></span>Berlin<span class="month">September</span></div>
+      <div class="hero-race-badge"><span class="dot"></span>Chicago<span class="month">October</span></div>
+      <div class="hero-race-badge"><span class="dot"></span>New York<span class="month">November</span></div>
+    </div>
+  </section>
+
+  <div class="gold-strip" aria-label="Key facts">
+    <div class="strip-stat">
+      <div class="strip-stat-num">1897</div>
+      <div class="strip-stat-label">First Major founded</div>
+    </div>
+    <div class="strip-divider" aria-hidden="true"></div>
+    <div class="strip-stat">
+      <div class="strip-stat-num">500,000+</div>
+      <div class="strip-stat-label">Runners per year</div>
+    </div>
+    <div class="strip-divider" aria-hidden="true"></div>
+    <div class="strip-stat">
+      <div class="strip-stat-num">100+</div>
+      <div class="strip-stat-label">Countries represented</div>
+    </div>
+    <div class="strip-divider" aria-hidden="true"></div>
+    <div class="strip-stat">
+      <div class="strip-stat-num">$500k</div>
+      <div class="strip-stat-label">Annual prize money</div>
+    </div>
+    <div class="strip-divider" aria-hidden="true"></div>
+    <div class="strip-stat">
+      <div class="strip-stat-num">6&#9733;</div>
+      <div class="strip-stat-label">Finisher medal</div>
+    </div>
+  </div>
+
+  <section class="section section--destinations" id="destinations">
+    <div class="section-inner">
+      <p class="section-eyebrow">The Races</p>
+      <h2 class="section-title">Choose your <em>Major</em></h2>
+      <div class="race-grid">
+        <article class="race-card">
+          <div class="race-card-top">
+            <span class="race-num">01</span>
+            <span class="race-month-pill">March</span>
+          </div>
+          <div>
+            <div class="race-city">Tokyo</div>
+            <div class="race-country">Japan &middot; Est. 2007</div>
+          </div>
+          <p class="race-desc">
+            The world's most precisely organised marathon. 38,000 runners pass through the heart of
+            Tokyo, supported by extraordinary crowd energy.
+          </p>
+          <a href="destinations.html#tokyo" class="race-link">Explore + packages &rarr;</a>
+        </article>
+
+        <article class="race-card">
+          <div class="race-card-top">
+            <span class="race-num">02</span>
+            <span class="race-month-pill">April</span>
+          </div>
+          <div>
+            <div class="race-city">Boston</div>
+            <div class="race-country">USA &middot; Est. 1897</div>
+          </div>
+          <p class="race-desc">
+            The world's oldest annual marathon. Unique among the Majors in requiring a qualifying
+            time &mdash; a Boston finish is one of running's highest honours.
+          </p>
+          <a href="destinations.html#boston" class="race-link">Explore + packages &rarr;</a>
+        </article>
+
+        <article class="race-card">
+          <div class="race-card-top">
+            <span class="race-num">03</span>
+            <span class="race-month-pill">April</span>
+          </div>
+          <div>
+            <div class="race-city">London</div>
+            <div class="race-country">UK &middot; Est. 1981</div>
+          </div>
+          <p class="race-desc">
+            Past Tower Bridge, along the Thames Embankment and down The Mall to Buckingham Palace.
+            Consistently ranked among the world's finest marathons.
+          </p>
+          <a href="destinations.html#london" class="race-link">Explore + packages &rarr;</a>
+        </article>
+
+        <article class="race-card">
+          <div class="race-card-top">
+            <span class="race-num">04</span>
+            <span class="race-month-pill">September</span>
+          </div>
+          <div>
+            <div class="race-city">Berlin</div>
+            <div class="race-country">Germany &middot; Est. 1974</div>
+          </div>
+          <p class="race-desc">
+            The fastest marathon course in the world. More world records have been set on Berlin's
+            flat streets than at any other Major.
+          </p>
+          <a href="destinations.html#berlin" class="race-link">Explore + packages &rarr;</a>
+        </article>
+
+        <article class="race-card">
+          <div class="race-card-top">
+            <span class="race-num">05</span>
+            <span class="race-month-pill">October</span>
+          </div>
+          <div>
+            <div class="race-city">Chicago</div>
+            <div class="race-country">USA &middot; Est. 1977</div>
+          </div>
+          <p class="race-desc">
+            A flat, fast loop through 29 diverse neighbourhoods. Chicago's electric street atmosphere
+            and passionate volunteer force make it unforgettable.
+          </p>
+          <a href="destinations.html#chicago" class="race-link">Explore + packages &rarr;</a>
+        </article>
+
+        <article class="race-card">
+          <div class="race-card-top">
+            <span class="race-num">06</span>
+            <span class="race-month-pill">November</span>
+          </div>
+          <div>
+            <div class="race-city">New York</div>
+            <div class="race-country">USA &middot; Est. 1970</div>
+          </div>
+          <p class="race-desc">
+            The world's largest marathon. A 26.2-mile journey through all five boroughs &mdash; from
+            Staten Island to the Central Park finish line.
+          </p>
+          <a href="destinations.html#new-york" class="race-link">Explore + packages &rarr;</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--packages" id="packages">
+    <div class="section-inner">
+      <p class="section-eyebrow">Travel Packages</p>
+      <h2 class="section-title">Find your <em>perfect trip</em></h2>
+      <div class="pkg-grid">
+        <article class="pkg-card">
+          <span class="pkg-tag">Runner</span>
+          <div class="pkg-name">Race &amp; Stay</div>
+          <p class="pkg-desc">
+            Everything you need on race day &mdash; accommodation near the start line, transfers, and a
+            finisher's welcome pack.
+          </p>
+          <ul class="pkg-features">
+            <li>3 nights hotel near start line</li>
+            <li>Race day transfer &amp; support</li>
+            <li>Finisher welcome pack</li>
+            <li>Local race guide included</li>
+          </ul>
+          <div class="pkg-footer">
+            <div>
+              <div class="pkg-price-label">Packages from</div>
+              <div class="pkg-price">&pound;890</div>
+            </div>
+            <a href="packages.html" class="pkg-btn">View &rarr;</a>
+          </div>
+        </article>
+
+        <article class="pkg-card">
+          <span class="pkg-tag">Supporter</span>
+          <div class="pkg-name">Cheer Package</div>
+          <p class="pkg-desc">
+            Be in the best spots on race day. Guided spectator positions, city highlights tour, and
+            race day access included.
+          </p>
+          <ul class="pkg-features">
+            <li>Guided spectator spot selection</li>
+            <li>City highlights day tour</li>
+            <li>Race day access &amp; briefing</li>
+            <li>Supporter welcome kit</li>
+          </ul>
+          <div class="pkg-footer">
+            <div>
+              <div class="pkg-price-label">Packages from</div>
+              <div class="pkg-price">&pound;620</div>
+            </div>
+            <a href="packages.html" class="pkg-btn">View &rarr;</a>
+          </div>
+        </article>
+
+        <article class="pkg-card">
+          <span class="pkg-tag">Premium</span>
+          <div class="pkg-name">Full Major</div>
+          <p class="pkg-desc">
+            The complete experience &mdash; flights, hotel, transfers, guided city tour, and a private
+            finisher's dinner. Nothing left to plan.
+          </p>
+          <ul class="pkg-features">
+            <li>Return flights included</li>
+            <li>5 nights premium hotel</li>
+            <li>All transfers &amp; race logistics</li>
+            <li>Private finisher's dinner</li>
+          </ul>
+          <div class="pkg-footer">
+            <div>
+              <div class="pkg-price-label">Packages from</div>
+              <div class="pkg-price">&pound;1,890</div>
+            </div>
+            <a href="packages.html" class="pkg-btn">View &rarr;</a>
+          </div>
+        </article>
+
+        <article class="pkg-card">
+          <span class="pkg-tag">Club</span>
+          <div class="pkg-name">Group Travel</div>
+          <p class="pkg-desc">
+            Custom packages for running clubs and groups of 10 or more. Dedicated group coordinator
+            included throughout.
+          </p>
+          <ul class="pkg-features">
+            <li>Bespoke group itinerary</li>
+            <li>Dedicated group coordinator</li>
+            <li>Group hotel block booking</li>
+            <li>Club banner &amp; group photo</li>
+          </ul>
+          <div class="pkg-footer">
+            <div>
+              <div class="pkg-price-label">From per person</div>
+              <div class="pkg-price">&pound;750</div>
+            </div>
+            <a href="packages.html" class="pkg-btn">View &rarr;</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--why">
+    <div class="section-inner">
+      <p class="section-eyebrow">Why 6 Majors</p>
+      <h2 class="section-title">Travel built <em>for runners</em></h2>
+      <div class="why-grid">
+        <div class="why-card">
+          <div class="why-icon" aria-hidden="true">
+            <div class="why-icon-dot"></div>
+          </div>
+          <h3 class="why-title">Race specialists</h3>
+          <p class="why-text">
+            Every package is designed around the specific logistics of race day &mdash; start corrals,
+            finish line access, and transport that actually works when you're exhausted.
+          </p>
+        </div>
+        <div class="why-card">
+          <div class="why-icon" aria-hidden="true">
+            <div class="why-icon-dot"></div>
+          </div>
+          <h3 class="why-title">All six Majors covered</h3>
+          <p class="why-text">
+            Whether you're chasing your first Major or your sixth star, we offer tailored packages for
+            every race in the series &mdash; on every continent.
+          </p>
+        </div>
+        <div class="why-card">
+          <div class="why-icon" aria-hidden="true">
+            <div class="why-icon-dot"></div>
+          </div>
+          <h3 class="why-title">Runners and supporters</h3>
+          <p class="why-text">
+            We plan for everyone at the race &mdash; not just the runner. Our supporter packages ensure
+            your crew sees you at the right moments and makes the most of the city.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section--cta" aria-label="Call to action">
+    <div class="cta-inner">
+      <div class="cta-left">
+        <h2 class="cta-title">Ready to run a<br /><em>World Major?</em></h2>
+        <p class="cta-sub">
+          Tell us your race and we'll put together the perfect travel plan &mdash; for you, your club, or
+          your whole support crew.
+        </p>
+      </div>
+      <div class="cta-buttons">
+        <a href="contact.html" class="btn-primary">Get in touch</a>
+        <a href="packages.html" class="btn-outline">View all packages</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-logo">6 Majors</div>
+      <ul class="footer-links">
+        <li><a href="about.html">About</a></li>
+        <li><a href="destinations.html">Destinations</a></li>
+        <li><a href="packages.html">Packages</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <p class="footer-credit">Images: Unsplash / Pexels &middot; Data: worldmarathonmajors.com</p>
+    </div>
+  </footer>
+</body>
+
+</html>
